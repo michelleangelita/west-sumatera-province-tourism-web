@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: cadetblue;
+}
+.responsive{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#header1{
+    background-color: teal; 
+    padding: 30px; 
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#header1 li{
+    float: right;
+    list-style: none;
+}
+button{
+    background-color: teal;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+#header1 button:hover{
+    background-color: tomato;
+    padding: 7px;
+    font-weight: bold;
+    transition: 1s;
+    border-radius: 5px;
+}
+.header-bawah{
+    margin-top: 5px;
+    display: flex;
+}
+#header2{
+    margin-right: 5px;
+    width: 70%;
+    overflow: hidden;
+}
+#header2 figure {
+	width:300%;
+	position: relative;
+	animation: 9s slider infinite;
+}
+#header2 figure img {
+	width: 33.333333333%;
+	height : 100%;
+	float: left;
+}
+@keyframes slider {
+	0% { left: 0; }
+	30% { left: 0; }
+	33% { left: -100%; }
+	63% { left: -100%; }
+	66% { left: -200%; }
+	95% { left: -200%; }
+	100% { left: 0; }
+}
+#header2 h1{
+    color: white;
+    text-shadow: black 2px 2px 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+    text-align: center;
+}
+h3{
+    padding-top: 20px;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+h5{
+    text-align: center;
+    text-shadow: black 2px 2px 2px;
+    color: white;
+}
+#nav1{
+    padding: 5px;
+    background-color: white;
+    width: 30%;
+}
+
+.content{
+    margin-top: 5px;
+}
+.content-atas{
+    display: flex;
+}
+#section{
+    margin-right: 5px;
+    background-color: rgb(130, 180, 182);
+    width: 70%;
+    border-radius: 5px;
+}
+pre{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+#nav2{
+    padding: 5px;
+    padding-top: 10px;
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    display: inline-table;
+}
+#nav2 img{
+    width: 350px; 
+    height: 447px;
+}
+.content-bawah{
+    background-color: teal;
+}
+
+#section2{
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    width: 30%;
+    border-radius: 50%;
+}
+.wisata1 h5{
+    position: absolute;
+}
+.wisata2 h5{
+    position: absolute;
+}
+.wisata3 h5{
+    position: absolute;
+}
+a:link{
+    color: teal;
+    text-decoration: none;
+}
+a:visited{
+    color: default;
+}
+a:hover{
+    color: tomato;
+}
+
+#footer{
+    background-color: rgb(0, 65, 65);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+/* imagemap css*/
+h2{
+    background-color: teal;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-variant: small-caps;
+}
+#section img{
+    width: 100%;
+}
+
+
+/* bookingform css */
+.form-container{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 25px;
+    padding-bottom: 25px;
+}
+
+input[type=text], input[type=date], input[type=number], textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    background: #f1f1f1;
+}
+
+select, option{
+    width: 104%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    background: #f1f1f1;
+}
+
+input[type=radio], input[type=checkbox]{
+    margin: 5px 0 22px 0;
+}
+
+.bookButton {
+   background-color: darkslategrey;
+   color: white;
+   padding: 15px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   width: 100%;
+}  
+
+
+/* contactus css*/
+.contact-wrapper{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+}
+
+.contact-wrapper li{
+    list-style: none;
+    margin-bottom: 5px;
+    background-color: rgb(0, 158, 158);
+    border-radius: 20px;
+    width: 70%;
+    padding: 25px;
+    color: white;
+}
+
+
+/* responsive css*/
+@media screen and (max-width: 500px) {
+    .responsive{
+        width: 100%;
+    }
+}

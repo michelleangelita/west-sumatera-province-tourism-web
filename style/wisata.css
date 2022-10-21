@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: cadetblue;
+}
+.responsive{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#header1{
+    background-color: teal; 
+    padding: 30px; 
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#header1 li{
+    float: right;
+    list-style: none;
+}
+button{
+    background-color: teal;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+#header1 button:hover{
+    background-color: tomato;
+    padding: 7px;
+    font-weight: bold;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+.content{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.content-atas{
+    display: flex;
+    text-align: left;
+}
+.content-bawah{
+    text-align: center;
+    padding: 20px;
+}
+.image{
+    margin-right: 5px;
+    width: 50%;
+}
+.text{
+    padding: 20px;
+    width: 50%;
+    background-color: rgb(130, 180, 182);
+    border: teal solid 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.text h1{
+    background-color: teal;
+    border-radius: 20px;
+    padding: 20px;
+    font-variant: small-caps;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.content-bawah button{
+    width: 50%;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: darkslategrey;
+}
+.text a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer{
+    background-color: rgb(0, 65, 65);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-right: auto;
+}
+
+
+/*terms css */
+.content-terms{
+    background-color: rgb(130, 180, 182);
+    padding-bottom: 20px;
+    padding: 30px;
+}
+.syarat h1{
+    border-radius: 5px;
+    padding: 20px;
+    font-variant: small-caps;
+    font-size: 30px;
+    color: white;
+    background-color: teal;
+}
+.syarat{
+    border-radius: 5px;
+    padding: 15px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+.syarat li{
+    list-style-type: upper-alpha;
+}
+
+
+/* responsive css*/
+@media screen and (max-width: 500px) {
+    .responsive{
+        width: 100%;
+    }
+}
